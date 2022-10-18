@@ -17,19 +17,48 @@ box-shadow: 5px 5px 15px 20px rgba(0,0,0,0.47);
 
     display: inline-block;
     position: absolute;
-    left: 30%;
-    bottom: 10px;
-    margin-top: 220px;
-    animation: mymove 7s infinite;
+    left: 300px;
+    top:300px;
+    animation: mymove 12s infinite;
+}
+.absolutli1{ 
+
+    display: inline-block;
+    position: absolute;
+    right:5px;
+    top:400px;
+    animation: mymove1 12s infinite;
+}
+.absolutli2{ 
+
+    display: inline-block;
+    position: absolute;
+    left:60px;
+    top:40px;
+    animation: mymove2 12s infinite;
 }
 @keyframes mymove {
-    from {top: 0px;}
-    to {margin-left: 450px;}
-
+    from {top: 300px;}
+    to {margin-left: 500px;}
+    from{top:300px;}
+    to{margin-left:300px;}
 
   }
+  @keyframes mymove1 {
+    from {top: 400px;}
+    to {margin-right: 5px;}
+    from{top:400px;}
+    to{margin-right:900px;}
+    
+  }
+  @keyframes mymove2 {
+    from {top: 40px;}
+    to {margin-left: 60px;}
+    from{top:40px;}
+    to{margin-left:80px;}
+    
+  }
 
-  
 
 
   
